@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="690" viewBox="0 0 1320 690" role="img" aria-labelledby="title desc">
+  <title id="title">BILO prototype rental workflow</title>
+  <desc id="desc">Properties can be discovered and liked. A tenant creates a pending match, which the landlord can accept or reject. Acceptance attempts to create a REST conversation. A landlord can create a draft lease from either a pending or active match. The lease creates initial deposit and rent records. Persistence is SQLite; payments and AI are simulated; demo login is public.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#235b8a" stroke-width="1.5"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#17212b}
+      .eyebrow{font-size:15px;font-weight:700;letter-spacing:2px;fill:#235b8a}
+      .heading{font-size:29px;font-weight:700}
+      .body{font-size:20px;fill:#64748b}
+      .line{fill:none;stroke:#235b8a;stroke-width:2;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1320" height="690" fill="#fafafa"/>
+  <text x="56" y="48" class="eyebrow">BILO / RENTAL BACKEND</text>
+  <text x="56" y="100" font-size="38" font-weight="700">Discovery, matching and lease records</text>
+  <text x="56" y="137" class="body">A modular NestJS prototype with Prisma persistence and explicit demo boundaries.</text>
+  <line x1="76" y1="204" x2="1238" y2="204" stroke="#dce2e8" stroke-width="2"/>
+  <circle cx="76" cy="204" r="19" fill="#235b8a"/><text x="76" y="210" text-anchor="middle" font-size="17" font-weight="700" fill="#fff" style="fill:#fff">1</text>
+  <circle cx="494" cy="204" r="19" fill="#235b8a"/><text x="494" y="210" text-anchor="middle" font-size="17" font-weight="700" style="fill:#fff">2</text>
+  <circle cx="912" cy="204" r="19" fill="#235b8a"/><text x="912" y="210" text-anchor="middle" font-size="17" font-weight="700" style="fill:#fff">3</text>
+  <text x="56" y="260" class="heading">Discover a property</text>
+  <text x="56" y="297" class="body">Catalog filters and preferences</text>
+  <text x="56" y="326" class="body">Prisma-backed recommendations</text>
+  <text x="474" y="260" class="heading">Record interest</text>
+  <text x="474" y="297" class="body">LIKE / SUPERLIKE, then a request</text>
+  <text x="474" y="326" class="body">Creates a PENDING match</text>
+  <text x="892" y="260" class="heading">Landlord decision</text>
+  <text x="892" y="297" class="body">Accept or reject the request</text>
+  <text x="892" y="326" class="body">Acceptance → REST conversation</text>
+  <path d="M 374 264 H 440" class="line"/>
+  <path d="M 792 264 H 858" class="line"/>
+  <path d="M 646 348 V 408" class="line"/>
+  <text x="669" y="384" font-size="17" fill="#235b8a" style="fill:#235b8a">PENDING or ACTIVE</text>
+  <line x1="474" y1="431" x2="474" y2="516" stroke="#235b8a" stroke-width="3"/>
+  <text x="494" y="452" class="heading">Draft lease</text>
+  <text x="494" y="487" class="body">Landlord creates the lease</text>
+  <text x="494" y="516" class="body">and follows status transitions</text>
+  <path d="M 800 463 H 858" class="line"/>
+  <text x="892" y="452" class="heading">Initial payment records</text>
+  <text x="892" y="487" class="body">Deposit and first rent</text>
+  <text x="892" y="516" class="body">Charges are simulated</text>
+  <line x1="56" y1="559" x2="1264" y2="559" stroke="#dce2e8" stroke-width="1.5"/>
+  <text x="56" y="591" class="eyebrow">CURRENT RUNTIME</text>
+  <text x="56" y="627" font-size="21" font-weight="700">SQLite</text>
+  <text x="360" y="627" font-size="21" font-weight="700">Mock payments and rule-based AI</text>
+  <text x="886" y="627" font-size="21" font-weight="700">Public demo login</text>
+  <text x="56" y="659" font-size="18" fill="#64748b" style="fill:#64748b">Local prototype. Multi-step lease creation is not atomic. Production hardening remains separate work.</text>
+</svg>
+
