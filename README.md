@@ -26,6 +26,20 @@ Backend de una plataforma residencial que reúne búsqueda por afinidad, acuerdo
 
 ---
 
+## In English
+
+**bilo** is a student-housing platform that takes a renter from finding a property to a verifiable rental relationship: affinity-based search, tenant-landlord matching, lease and payment history, and a trust score built from behavior on the platform. This repository holds the backend prototype (NestJS, TypeScript, Prisma, OpenAPI).
+
+### My contribution
+
+bilo was born at a hackathon organized by Costa Rica Tech Week and hosted at the Microsoft building in Costa Rica. Our team designed the idea from scratch during the event: a platform that connects the steps students usually handle across scattered portals, chats and receipts when renting a place.
+
+I was in charge of building the pitch so the judges could clearly understand the problem, the idea and how bilo would work. We presented it together with a mock-up of how the product would look, and our team won **2nd place**.
+
+This repository is a fork of the team's backend: [JoseZum/bilo-backend](https://github.com/JoseZum/bilo-backend).
+
+---
+
 ## Un alquiler completo, no solo un listado
 
 bilo parte de una premisa sencilla: encontrar una propiedad es apenas el comienzo. El producto conecta las decisiones que normalmente quedan repartidas entre portales, mensajería y comprobantes aislados.
